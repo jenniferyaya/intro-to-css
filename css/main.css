@@ -1,5 +1,5 @@
 html {
-	background-color: #891c5c;
+	background-color: #7ac5fa;
 	/*
 		Black #000000 #000
 		White #ffffff #fff
@@ -9,11 +9,26 @@ html {
 	*/
 }
 
-h1 {
+h1, h2 {
 	font-weight: normal; /* normal, bold */
 	font-size: 5rem;
 	font-style:italic; /* normal, italic */
 	text-decoration:underline; /* underline, line-through */
 	font-family: "Poiret One", cursive;
+	line-height: 1.5;
 
+}
+
+ol {
+	list-style-type: none; /* none, decimal, lower-roman, lower-alpha, square */
+	padding:0;
+	line-height: 1.5;
+}
+
+li {
+	font-weight: bold;
+}
+
+.stego {
+	color: orange;
 }
