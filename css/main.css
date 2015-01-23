@@ -32,3 +32,11 @@ li {
 .stego {
 	color: orange;
 }
+
+a {
+	color:white;
+}
+
+a:hover {
+	color: pink;
+}
